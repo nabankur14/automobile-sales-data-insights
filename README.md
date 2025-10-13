@@ -89,12 +89,11 @@ By leveraging <em>data analytics</em> and <em>visualization techniques</em>, it 
 </details>
 
 <details>
-  <summary style="cursor:pointer; color:#3aafa9; font-weight:bold;">📁 Folder Structure</summary>
+  <summary style="cursor:pointer; color:#3aafa9; font-weight:bold;">Folder Structure</summary>
   <pre style="background:#f0f0f0; padding:10px; border-radius:8px;">
-/notebooks       → Jupyter notebooks for data cleaning and EDA
-/data            → Raw and processed customer datasets
-/visuals         → Graphs and distribution plots
-BUSINESS_REPORT-AMC.pdf → Full business & technical report
+Austo_Automobile.ipynb       → Jupyter notebooks for data cleaning and EDA
+austo_automobile.csv            → Raw and processed customer datasets
+Automobile_Sales_Data_Insights.pdf → Full business & technical report
 README.md        → Project documentation (this file)
   </pre>
 </details>
