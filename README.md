@@ -63,13 +63,27 @@ The dataset contains customer demographic and financial details.
 2. **Product Positioning:** Position Hatchbacks as the ideal "first car" for young, single professionals or students.
 3. **Loan Offers:** Partner with banks to offer tailored financing for customers with existing liabilities (House/Personal loans), as they show high intent but price sensitivity.
 
-## 💻 Tech Stack
-- **Language:** Python
-- **Libraries:**
-  - 🐼 `Pandas`, `NumPy` (Data Manipulation)
-  - 📊 `Matplotlib`, `Seaborn` (Visualization)
-  - 📉 `SciPy` (Statistical Analysis)
-- **Environment:** Jupyter Notebook
+## � Skills
+### Technical Skills
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Seaborn](https://img.shields.io/badge/Seaborn-77AC1D?style=for-the-badge&logo=seaborn&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-000000?style=for-the-badge&logo=matplotlib&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+![Data Analysis](https://img.shields.io/badge/Data_Analysis-FFA500?style=for-the-badge&logo=google-analytics&logoColor=white)
+
+### Soft Skills
+- 🧠 **Analytical Thinking**: Translating data patterns into business strategies.
+- �️ **Communication**: Presenting complex insights to stakeholders.
+- 🎯 **Problem Solving**: Identifying inefficiencies in marketing campaigns.
+- 🔍 **Attention to Detail**: Ensures data accuracy and quality.
+
+## 💡 Key Learnings
+- **Customer Segmentation:** Learned how detailed demographic profiling (Age, Family Size) directly impacts product choice.
+- **Data storytelling:** The importance of framing analysis in the context of business problems (e.g., "Marketing Efficiency" vs just "Sales Stats").
+- **Feature Engineering:** How creating composite features like `Total_Salary` can reveal stronger correlations than individual metrics.
+- **Python for Analysis:** Deepened proficiency in `pandas` for data manipulation and `seaborn` for multivariate analysis.
 
 ## 📂 Repository Structure
 ```
@@ -120,4 +134,5 @@ project-name/
 ## 👨‍💻 Author
 **Nabankur Ray**  
 *Data Science Student*  
+📧 Email: [nabankur.ray@example.com](mailto:nabankur.ray@example.com)  
 [GitHub Profile](https://github.com/nabankur14) | [LinkedIn](https://linkedin.com/in/nabankur-ray)
