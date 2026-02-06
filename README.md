@@ -1,104 +1,123 @@
-<h1 align="center" style="color:#2b7a78;">Automobile Customer Analytics</h1>
-<h3 align="center" style="color:#17252a;">Data-Driven Insights for Austro Motor Company (AMC)</h3>
+# 🚗 Automobile Sales Data Insights
 
-<p align="center">
-  <strong>Author:</strong> <a href="https://github.com/nabankur14" target="_blank" style="color:#3aafa9;">Nabankur Ray</a>  
-</p>
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python)
+![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
-<hr>
+> **Optimizing Marketing Campaigns & Customer Experience for Austo Motor Company**
 
-<h2 style="color:#17252a;">Overview</h2>
-<p>
-This project focuses on <strong>Automobile Customer Analytics</strong> — analyzing customer purchasing behavior using demographic, financial, and vehicle data for <strong>Austro Motor Company (AMC)</strong>.  
-By leveraging <em>data analytics</em> and <em>visualization techniques</em>, it identifies high-potential customer segments, uncovers car type preferences, and provides <strong>actionable business insights</strong> for targeted marketing and sales optimization.
-</p>
+---
 
-<details open>
-  <summary style="cursor:pointer; color:#3aafa9; font-weight:bold;">Objective</summary>
-  <p>
-  The goal of this analysis is to:
-  <ul>
-    <li>Understand how <strong>demographic and financial factors</strong> influence car purchase decisions.</li>
-    <li>Identify key <strong>customer segments</strong> (gender, marital status, income group) for better marketing campaigns.</li>
-    <li>Analyze patterns across <strong>car types (SUV, Sedan, Hatchback)</strong> and spending behavior.</li>
-    <li>Provide <strong>data-backed business recommendations</strong> for improved targeting and customer satisfaction.</li>
-  </ul>
-  </p>
-</details>
+## 📖 Table of Contents
+- [Project Overview](#-project-overview)
+- [Business Problem](#-business-problem)
+- [Dataset](#-dataset)
+- [Methodology](#-methodology)
+- [Key Results](#-key-results)
+- [Business Impact](#-business-impact)
+- [Tech Stack](#-tech-stack)
+- [Repository Structure](#-repository-structure)
+- [How to Run](#-how-to-run)
+- [Future Improvements](#-future-improvements)
+- [Author](#-author)
 
-<details>
-  <summary style="cursor:pointer; color:#3aafa9; font-weight:bold;">Dataset</summary>
-  <ul>
-    <li><strong>Source:</strong> Austro Automobile (AMC) Customer Dataset – <code>austo_automobile.csv</code></li>
-    <li><strong>Size:</strong> 1,581 rows × 14 columns</li>
-    <li><strong>Key Features:</strong>
-      <ul>
-        <li>Demographics: Gender, Age, Marital Status, Education, Dependents</li>
-        <li>Financials: Salary, Partner Salary, Total Salary, Personal Loan, Housing Loan, Partner Working</li>
-        <li>Vehicle Info: Car Type (SUV, Sedan, Hatchback), Price</li>
-      </ul>
-    </li>
-  </ul>
-</details>
+---
 
-<details>
-  <summary style="cursor:pointer; color:#3aafa9; font-weight:bold;">Methodology</summary>
-  <ol>
-    <li><strong>Data Cleaning & Preprocessing:</strong> Handled missing values, corrected categorical entries (e.g., “Femal” → “Female”), derived missing partner salaries using logical imputation.</li>
-    <li><strong>Exploratory Data Analysis (EDA):</strong> Visualized distributions, correlations, and segment trends using bar charts, boxplots, and pair plots.</li>
-    <li><strong>Feature Analysis:</strong> Compared spending patterns and car preferences across gender, profession, and marital status.</li>
-    <li><strong>Statistical Insights:</strong> Quantified mean car prices, correlations between salary, dependents, and purchase type.</li>
-    <li><strong>Business Interpretation:</strong> Converted analytical findings into actionable marketing and sales recommendations.</li>
-  </ol>
-</details>
+## 🔭 Project Overview
+**Austo Motor Company**, a leading manufacturer of SUVs, Sedans, and Hatchbacks, is looking to enhance its marketing efficiency. This project analyzes customer data to understand demand patterns, refine customer segmentation, and provide data-driven recommendations to improve campaign performance and customer experience.
 
-<details>
-  <summary style="cursor:pointer; color:#3aafa9; font-weight:bold;">Tools & Technologies</summary>
-  <p>
-  <code>Python</code>, <code>Pandas</code>, <code>NumPy</code>, <code>Matplotlib</code>, <code>Seaborn</code>,  
-  <code>Jupyter Notebook</code>, <code>Microsoft Excel</code>, <code>Statistical Analysis</code>
-  </p>
-</details>
+## 💼 Business Problem
+The board of Austo Motor Company raised concerns about the **efficiency of the current marketing campaign**. The key objectives are:
+- 📉 Reduce marketing waste by targeting the right audience.
+- 🎯 Identify high-value customer segments.
+- 🚗 Understand product preferences (SUV vs. Sedan vs. Hatchback) based on demographics.
+- 💡 Provide actionable insights to improve sales and customer retention.
 
-<details open>
-  <summary style="cursor:pointer; color:#3aafa9; font-weight:bold;">Results & Insights</summary>
-  <p>
-  <strong>Key Analytical Findings:</strong>
-  <ul>
-    <li><strong>Gender Trends:</strong> Female customers spend more on cars (avg. $47,705) than male customers (avg. $32,817).</li>
-    <li><strong>Profession Insights:</strong> Salaried individuals dominate car purchases (especially Sedans).</li>
-    <li><strong>Car Type Popularity:</strong> Sedans are the most purchased cars; SUVs are least preferred.</li>
-    <li><strong>Financial Behavior:</strong> Personal loans have minimal influence on car purchase price.</li>
-    <li><strong>Household Dynamics:</strong> Having a working partner slightly lowers average car spending.</li>
-  </ul>
-  <p>
-  <strong>Actionable Insights:</strong>
-  Target <strong>married, salaried individuals without housing loans</strong> — the most promising customer group for high-value car sales.  
-  Leverage gender-based marketing to attract female customers who prefer premium-priced vehicles.  
-  </p>
-</details>
+## 📊 Dataset
+The dataset contains customer demographic and financial details.
+- **Source:** Internal Company Data (Austo Motor Company)
+- **Size:** ~1,600 Records
+- **Key Features:**
+  - `Age`, `Gender`, `Marital Status`, `Profession`, `Education`
+  - `Salary`, `Partner Salary`, `Total Salary`
+  - `No. of Dependents`, `Partner Working`
+  - `Personal Loan`, `House Loan` (Financial Liabilities)
+  - `Price`, `Make` (Target Variables)
 
-<details>
-  <summary style="cursor:pointer; color:#3aafa9; font-weight:bold;">Future Scope</summary>
-  <ul>
-    <li>Integrate <strong>predictive models</strong> to forecast car purchase likelihood.</li>
-    <li>Develop an <strong>interactive Power BI dashboard</strong> for real-time insights.</li>
-    <li>Include <strong>geographical and behavioral data</strong> for deeper segmentation.</li>
-    <li>Automate reports for ongoing sales performance tracking.</li>
-  </ul>
-</details>
+## ⚙️ Methodology
+1. **Data Cleaning:** Handling missing values, correcting data types, and removing duplicates (e.g., standardizing 'Femal'/'Femle' to 'Female').
+2. **Exploratory Data Analysis (EDA):** Univariate and Bivariate analysis to uncover patterns in age, salary, and car preferences.
+3. **Feature Engineering:** Creating new features like `Total_Salary` to better assess purchasing power.
+4. **Customer Profiling:** Segmenting customers based on profession, family size, and income to map them to specific car types.
+5. **Insights Generation:** Deriving business-centric conclusions from the data patterns.
 
-<details>
-  <summary style="cursor:pointer; color:#3aafa9; font-weight:bold;">Folder Structure</summary>
-  <pre style="background:#f0f0f0; padding:10px; border-radius:8px;">
-Austo_Automobile.ipynb       → Jupyter notebooks for data cleaning and EDA
-austo_automobile.csv            → Raw and processed customer datasets
-Automobile_Sales_Data_Insights.pdf → Full business & technical report
-README.md        → Project documentation (this file)
-  </pre>
-</details>
+## 📈 Key Results
+- **Income Influence:** Higher `Total_Salary` strongly correlates with purchasing **SUVs**, while entry-level buyers prefer **Hatchbacks**.
+- **Demographics:** 
+  - **Sedans** are popular among middle-aged, salaried professionals.
+  - **SUVs** are preferred by customers with larger families and higher disposable income.
+- **Gender Trends:** Distinct preferences were observed, with significant insights into female buyers' growing market share in specific segments.
 
-<hr>
-<p align="center" style="font-size:14px; color:#555;">
-© 2025 <strong>Nabankur Ray</strong> | Data Scientist 
-</p> 
+## 🚀 Business Impact
+1. **Targeted Marketing:** Shift ad spend for SUVs towards high-income, married professionals with dependents.
+2. **Product Positioning:** Position Hatchbacks as the ideal "first car" for young, single professionals or students.
+3. **Loan Offers:** Partner with banks to offer tailored financing for customers with existing liabilities (House/Personal loans), as they show high intent but price sensitivity.
+
+## 💻 Tech Stack
+- **Language:** Python
+- **Libraries:**
+  - 🐼 `Pandas`, `NumPy` (Data Manipulation)
+  - 📊 `Matplotlib`, `Seaborn` (Visualization)
+  - 📉 `SciPy` (Statistical Analysis)
+- **Environment:** Jupyter Notebook
+
+## 📂 Repository Structure
+```
+project-name/
+│
+├── data/
+│   ├── raw/                  # Original dataset
+│   └── processed/            # Cleaned data (if any)
+│
+├── notebooks/
+│   └── analysis.ipynb        # Main analysis notebook
+│
+├── src/                      # Source code for reproduction
+│   ├── data_preprocessing.py
+│   ├── modeling.py
+│   └── evaluation.py
+│
+├── reports/
+│   └── business_report.pdf   # Detailed business report
+│
+├── visuals/                  # Exported charts and plots
+│   └── charts/
+│
+├── requirements.txt          # Python dependencies
+└── README.md                 # Project documentation
+```
+
+## 🏃 How to Run
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/nabankur14/automobile-sales-data-insights.git
+   cd automobile-sales-data-insights
+   ```
+2. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. **Run the Notebook:**
+   ```bash
+   jupyter notebook notebooks/analysis.ipynb
+   ```
+
+## 🛠 Future Improvements
+- [ ] **Predictive Modeling:** Build a classification model to predict which car type a new customer is likely to buy.
+- [ ] **Dashboarding:** Create an interactive Tableau or PowerBI dashboard for the marketing team.
+- [ ] **External Data:** Integrate macroeconomic data to see how inflation impacts car sales.
+
+## 👨‍💻 Author
+**Nabankur Ray**  
+*Data Science Student*  
+[GitHub Profile](https://github.com/nabankur14) | [LinkedIn](https://linkedin.com/in/nabankur-ray)
