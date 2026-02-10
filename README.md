@@ -88,7 +88,7 @@ The dataset contains customer demographic and financial details.
 
 ## Repository Structure
 ```
-project-name/
+automobile-sales-data-insights/
 │
 ├── data/
 │   ├── raw/                  # Original dataset
@@ -98,12 +98,10 @@ project-name/
 │   └── analysis.ipynb        # Main analysis notebook
 │
 ├── src/                      # Source code for reproduction
-│   ├── data_preprocessing.py
-│   ├── modeling.py
-│   └── evaluation.py
-│
-├── reports/
-│   └── business_report.pdf   # Detailed business report
+│   ├── analysis.py           # Main script to run EDA and generate visuals
+│   ├── data_preprocessing.py # Data loading and cleaning logic
+│   ├── modeling.py           # Placeholder for future modeling work
+│   └── evaluation.py         # Placeholder for future evaluation work
 │
 ├── visuals/                  # Exported charts and plots
 │   └── charts/
@@ -122,7 +120,13 @@ project-name/
    ```bash
    pip install -r requirements.txt
    ```
-3. **Run the Notebook:**
+3. **Run the Analysis Script:**
+   To perform data preprocessing and generate all visualizations in `visuals/charts/`:
+   ```bash
+   python src/analysis.py
+   ```
+4. **Explore the Notebook:**
+   For an interactive walkthrough of the original analysis:
    ```bash
    jupyter notebook notebooks/analysis.ipynb
    ```

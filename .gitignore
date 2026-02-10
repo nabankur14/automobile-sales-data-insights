@@ -16,7 +16,7 @@ env.bak/
 venv.bak/
 
 # Project specific
-data/raw/*.csv
+# data/raw/*.csv
 # Keep processed data if needed, or ignore it too
 # data/processed/
 
