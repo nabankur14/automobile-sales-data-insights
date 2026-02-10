@@ -1,4 +1,4 @@
-# 🚗 Automobile Sales Data Insights
+# Automobile Sales Data Insights
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python)
 ![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
