@@ -137,7 +137,7 @@ project-name/
 ## 👨‍💻 Author
 | **Nabankur Ray** |
 | :--- |
-| **Data Scientist | Business Analyst | Machine Learning Engineer** |
+| **Data Scientist** | **Business Analyst** | **Machine Learning Engineer** |
 | [![GitHub](https://img.shields.io/badge/GitHub-Profile-black?style=flat&logo=github)](https://github.com/nabankur14) [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/nabankur-ray-876582181/) |
 
 
