@@ -132,24 +132,17 @@ project-name/
 - [ ] **Dashboarding:** Create an interactive Tableau or PowerBI dashboard for the marketing team.
 - [ ] **External Data:** Integrate macroeconomic data to see how inflation impacts car sales.
 
-## 👨‍💻 Author
-**Nabankur Ray**  
-*Data Science Student*  
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://www.linkedin.com/)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=flat&logo=github)](https://github.com/nabankur14)
-
-📧 Email: [nabankur.ray@example.com](mailto:nabankur.ray@example.com)  
-[GitHub Profile](https://github.com/nabankur14) | [LinkedIn](https://linkedin.com/in/nabankur-ray)
 
 <hr>
 <p align="center" style="font-size:14px; color:#555;">
 © 2025 <strong>Nabankur Ray</strong> | Data Scientist
-</p>
 
 
-## ✍️ Author
+
+## 👨‍💻 Author
 | **Nabankur Ray** |
 | :--- |
 | **Data Scientist | Business Analyst | Machine Learning Engineer** |
 | [![GitHub](https://img.shields.io/badge/GitHub-Profile-black?style=flat&logo=github)](https://github.com/nabankur14) [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?style=flat&logo=linkedin)](https://linkedin.com/in/nabankur14) |
+
+</p>
