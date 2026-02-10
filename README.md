@@ -29,10 +29,10 @@
 
 ## Business Problem
 The board of Austo Motor Company raised concerns about the **efficiency of the current marketing campaign**. The key objectives are:
-- 📉 Reduce marketing waste by targeting the right audience.
-- 🎯 Identify high-value customer segments.
-- 🚗 Understand product preferences (SUV vs. Sedan vs. Hatchback) based on demographics.
-- 💡 Provide actionable insights to improve sales and customer retention.
+- > Reduce marketing waste by targeting the right audience.
+- > Identify high-value customer segments.
+- > Understand product preferences (SUV vs. Sedan vs. Hatchback) based on demographics.
+- > Provide actionable insights to improve sales and customer retention.
 
 ## Dataset
 The dataset contains customer demographic and financial details.
@@ -75,10 +75,10 @@ The dataset contains customer demographic and financial details.
 ![Data Analysis](https://img.shields.io/badge/Data_Analysis-FFA500?style=for-the-badge&logo=google-analytics&logoColor=white)
 
 ### Soft Skills
-- 🧠 **Analytical Thinking**: Translating data patterns into business strategies.
-- 🗣️ **Communication**: Presenting complex insights to stakeholders.
-- 🎯 **Problem Solving**: Identifying inefficiencies in marketing campaigns.
-- 🔍 **Attention to Detail**: Ensures data accuracy and quality.
+![Analytical Thinking](https://img.shields.io/badge/Analytical_Thinking-4B0082?style=for-the-badge&logo=mindmap&logoColor=white)
+![Communication](https://img.shields.io/badge/Communication-25D366?style=for-the-badge&logo=google-messages&logoColor=white)
+![Problem Solving](https://img.shields.io/badge/Problem_Solving-FF4500?style=for-the-badge&logo=brainly&logoColor=white)
+![Attention to Detail](https://img.shields.io/badge/Attention_to_Detail-00CED1?style=for-the-badge&logo=google-search-console&logoColor=white)
 
 ## Key Learnings
 - **Customer Segmentation:** Learned how detailed demographic profiling (Age, Family Size) directly impacts product choice.
@@ -133,16 +133,11 @@ project-name/
 - [ ] **External Data:** Integrate macroeconomic data to see how inflation impacts car sales.
 
 
-<hr>
-<p align="center" style="font-size:14px; color:#555;">
-© 2025 <strong>Nabankur Ray</strong> | Data Scientist
-
-
 
 ## 👨‍💻 Author
 | **Nabankur Ray** |
 | :--- |
 | **Data Scientist | Business Analyst | Machine Learning Engineer** |
-| [![GitHub](https://img.shields.io/badge/GitHub-Profile-black?style=flat&logo=github)](https://github.com/nabankur14) [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?style=flat&logo=linkedin)](https://linkedin.com/in/nabankur14) |
+| [![GitHub](https://img.shields.io/badge/GitHub-Profile-black?style=flat&logo=github)](https://github.com/nabankur14) [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/nabankur-ray-876582181/) |
 
-</p>
+
