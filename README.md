@@ -27,7 +27,7 @@
 ## Project Overview
 **Austo Motor Company**, a leading manufacturer of SUVs, Sedans, and Hatchbacks, is looking to enhance its marketing efficiency. This project analyzes customer data to understand demand patterns, refine customer segmentation, and provide data-driven recommendations to improve campaign performance and customer experience.
 
-👉 [Open the notebook to explore full analysis](notebooks/analysis.ipynb)
+👉 [Open the notebook to explore full analysis](notebook/automobile_sales_data_insights_analysis.ipynb)
 
 ## Business Problem
 The board of Austo Motor Company raised concerns about the **efficiency of the current marketing campaign**. The key objectives are:
@@ -129,7 +129,7 @@ automobile-sales-data-insights/
  
  [![GitHub](https://img.shields.io/badge/GitHub-Profile-black?style=flat&logo=github)](https://github.com/nabankur14) [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/nabankur-ray-876582181/) 
  
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=nabankur14&show_icons=true)
+![GitHub Stats](https://github-readme-stats-eight-theta.vercel.app/api?username=nabankur14&show_icons=true)
 
 ⭐ If you like this project
 
