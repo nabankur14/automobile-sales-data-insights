@@ -4,7 +4,7 @@
 ![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
-> **Optimizing Marketing Campaigns & Customer Experience for Austo Motor Company**
+> **Data Science Project | Optimizing Marketing Campaigns & Customer Experience for Austo Motor Company**
 
 ---
 
@@ -81,11 +81,20 @@ The dataset contains customer demographic and financial details.
 ![Problem Solving](https://img.shields.io/badge/Problem_Solving-FF4500?style=for-the-badge&logo=brainly&logoColor=white)
 ![Attention to Detail](https://img.shields.io/badge/Attention_to_Detail-00CED1?style=for-the-badge&logo=google-search-console&logoColor=white)
 
+
 ## Key Learnings
 - **Customer Segmentation:** Learned how detailed demographic profiling (Age, Family Size) directly impacts product choice.
 - **Data storytelling:** The importance of framing analysis in the context of business problems (e.g., "Marketing Efficiency" vs just "Sales Stats").
 - **Feature Engineering:** How creating composite features like `Total_Salary` can reveal stronger correlations than individual metrics.
 - **Python for Analysis:** Deepened proficiency in `pandas` for data manipulation and `seaborn` for multivariate analysis.
+
+
+## Future Improvements
+- [ ] **Predictive Modeling:** Build a classification model to predict which car type a new customer is likely to buy.
+- [ ] **Dashboarding:** Create an interactive Tableau or PowerBI dashboard for the marketing team.
+- [ ] **External Data:** Integrate macroeconomic data to see how inflation impacts car sales.
+```
+## Project Visualizations
 
 ## Repository Structure
 ```
@@ -111,37 +120,18 @@ automobile-sales-data-insights/
 └── README.md                 # Project documentation
 ```
 
-## How to Run
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/nabankur14/automobile-sales-data-insights.git
-   cd automobile-sales-data-insights
-   ```
-2. **Install dependencies:**
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. **Run the Analysis Script:**
-   To perform data preprocessing and generate all visualizations in `visuals/charts/`:
-   ```bash
-   python src/analysis.py
-   ```
-4. **Explore the Notebook:**
-   For an interactive walkthrough of the original analysis:
-   ```bash
-   jupyter notebook notebooks/analysis.ipynb
-   ```
 
-## Future Improvements
-- [ ] **Predictive Modeling:** Build a classification model to predict which car type a new customer is likely to buy.
-- [ ] **Dashboarding:** Create an interactive Tableau or PowerBI dashboard for the marketing team.
-- [ ] **External Data:** Integrate macroeconomic data to see how inflation impacts car sales.
+
 
 
 
 ## 👨‍💻 Author
  **Nabankur Ray** 
+ Passionate about real-world data-driven solutions
  
  [![GitHub](https://img.shields.io/badge/GitHub-Profile-black?style=flat&logo=github)](https://github.com/nabankur14) [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/nabankur-ray-876582181/) 
 
 
+⭐ If you like this project
+
+Give it a ⭐ on GitHub — it helps a lot!
