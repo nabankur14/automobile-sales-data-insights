@@ -27,6 +27,8 @@
 ## Project Overview
 **Austo Motor Company**, a leading manufacturer of SUVs, Sedans, and Hatchbacks, is looking to enhance its marketing efficiency. This project analyzes customer data to understand demand patterns, refine customer segmentation, and provide data-driven recommendations to improve campaign performance and customer experience.
 
+👉 [Open the notebook to explore full analysis](notebooks/analysis.ipynb)
+
 ## Business Problem
 The board of Austo Motor Company raised concerns about the **efficiency of the current marketing campaign**. The key objectives are:
 - > Reduce marketing waste by targeting the right audience.
@@ -93,35 +95,31 @@ The dataset contains customer demographic and financial details.
 - [ ] **Predictive Modeling:** Build a classification model to predict which car type a new customer is likely to buy.
 - [ ] **Dashboarding:** Create an interactive Tableau or PowerBI dashboard for the marketing team.
 - [ ] **External Data:** Integrate macroeconomic data to see how inflation impacts car sales.
-```
+
 ## Project Visualizations
+
+![Car Type Distribution](images/Car_Type_Distribution_among_Different_Profession.png)
+*Car Type Distribution.*
+
+![Profession wise Distribution](images/Profession_wise_Distribution_of_Car_Type.png)
+*Profession wise Distribution.*
 
 ## Repository Structure
 ```
 automobile-sales-data-insights/
 │
 ├── data/
-│   ├── raw/                  # Original dataset
-│   └── processed/            # Cleaned data (if any)
+│   └── automobile.csv        # dataset
+│   
 │
 ├── notebooks/
-│   └── analysis.ipynb        # Main analysis notebook
+│   └── automobile_sales_data_insights_analysis.ipynb        # Main ipynb notebook
 │
-├── src/                      # Source code for reproduction
-│   ├── analysis.py           # Main script to run EDA and generate visuals
-│   ├── data_preprocessing.py # Data loading and cleaning logic
-│   ├── modeling.py           # Placeholder for future modeling work
-│   └── evaluation.py         # Placeholder for future evaluation work
-│
-├── visuals/                  # Exported charts and plots
-│   └── charts/
 │
 ├── requirements.txt          # Python dependencies
+├── LICENSE
 └── README.md                 # Project documentation
 ```
-
-
-
 
 
 
@@ -130,7 +128,8 @@ automobile-sales-data-insights/
  Passionate about real-world data-driven solutions
  
  [![GitHub](https://img.shields.io/badge/GitHub-Profile-black?style=flat&logo=github)](https://github.com/nabankur14) [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/nabankur-ray-876582181/) 
-
+ 
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=nabankur14&show_icons=true)
 
 ⭐ If you like this project
 
